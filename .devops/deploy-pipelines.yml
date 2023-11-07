@@ -23,7 +23,7 @@ steps:
       goals: 'deploy'
       options: '-B -s $(settingsxml.secureFilePath) -DskipTests=true -DaltDeploymentRepository=$(MAVEN_REMOTE_REPO_SERVER_ID)::$(MAVEN_REMOTE_REPO)'
       javaHomeOption: 'JDKVersion'
-      jdkVersionOption: '1.11'
+      jdkVersionOption: '1.17'
       mavenVersionOption: 'Default'
       mavenOptions: '-Xmx3072m'
       mavenAuthenticateFeed: true
