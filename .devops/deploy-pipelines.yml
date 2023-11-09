@@ -16,7 +16,7 @@ steps:
     inputs:
       secureFile: '$(SETTINGS_XML_RW_SECURE_FILE_NAME)'
       retryCount: '2'
-  - task: Maven@3
+  - task: Maven@4
     displayName: Build and Deploy Artifacts
     inputs:
       mavenPomFile: 'pom.xml'
