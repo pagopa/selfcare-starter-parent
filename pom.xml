@@ -11,7 +11,7 @@
     </parent>
     <groupId>it.pagopa.selfcare</groupId>
     <artifactId>selc-starter-parent</artifactId>
-    <version>0.2.0-SNAPSHOT</version>
+    <version>0.3.0-SNAPSHOT</version>
     <name>selc-starter-parent</name>
     <description>Self Care Starter Parent</description>
 
